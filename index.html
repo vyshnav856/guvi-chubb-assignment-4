@@ -1,0 +1,162 @@
+<!-- Submitted by: Vyshnav R -->
+<!-- Email: vyshnavr856@gmail.com -->
+<!-- Submission date: 02 October 2024 -->
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Vyshnav R - Guvi Chubb Assignment 4</title>
+
+		<link rel="icon" href="./assets/favicon-32x32.png">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet">
+
+
+		<link rel="stylesheet" href="./styles.css">
+	</head>
+	<body>
+		<nav class="mobile-nav">
+			<img class="mobile-close" src="./assets/icon-close-gray.svg">
+
+			<ul class="mobile-links">
+				<li class="mobile-link"><a href="#">Collections</a></li>
+				<li class="mobile-link"><a href="#">Men</a></li>
+				<li class="mobile-link"><a href="#">Women</a></li>
+				<li class="mobile-link"><a href="#">About</a></li>
+				<li class="mobile-link"><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+
+		<nav class="navbar">
+			<div class="navbar-left">
+				<img class="menu-icon" alt="Menu" src="./assets/icon-menu.svg">
+
+				<img class="company-logo" alt="Company logo" src="./assets/logo.svg">
+
+				<ul class="navbar-links">
+					<li class="navbar-link"><a href="#">Collections</a></li>
+					<li class="navbar-link"><a href="#">Men</a></li>
+					<li class="navbar-link"><a href="#">Women</a></li>
+					<li class="navbar-link"><a href="#">About</a></li>
+					<li class="navbar-link"><a href="#">Contact</a></li>
+				</ul>
+			</div>
+
+			<div class="cart-nav-out"></div>
+			<div class="navbar-right">
+				<div class="cart-wrapper">
+					<div class="cart-icon-wrapper">
+						<img class="cart-icon" alt="Cart" src="./assets/icon-cart.svg">
+						<p class="cart-icon-number">0</p>
+					</div>
+
+					<div class="cart-container">
+						<h2 class="cart-title">Cart</h2>
+						
+						<div class="cart-contents">
+							<p class="cart-default-text">Your cart is empty.</p>
+
+							<div class="cart-product-container">
+								<img class="cart-product-image" alt="Product image" src="./assets/image-product-1-thumbnail.jpg">
+
+								<div class="cart-product-details-container">
+									<p class="cart-product-name">Fall Limited Edition Sneakers</p>
+									<p>$125.00 x <span class="total-quantity">0</span> <span class="total-price">$375.00</span></p>
+								</div>
+
+								<img class="delete-icon" alt="Delete" src="./assets/icon-delete.svg">
+							</div>
+
+							<button class="checkout-button">Checkout</button>
+						</div>
+					</div>
+				</div>
+				<a href="#"><img class="profile-img" alt="Profile picture" src="./assets/image-avatar.png"></a>
+			</div>
+		</nav>
+			<div class="lightbox-container">
+				<div class="images-container-lightbox">
+					<img class="lightbox-close" alt="Close button" src="./assets/icon-close.svg">
+					<div class="main-img-wrapper-lightbox">
+						<img src="./assets/image-product-1.jpg" alt="Product image" class="main-img-lightbox">
+	
+						<div class="img-button-wrapper">
+							<img src="./assets/icon-previous.svg" alt="Previous image" class="img-button-lightbox prev-button-lightbox prev-all">
+						</div>
+	
+						<div class="img-button-wrapper">
+							<img src="./assets/icon-next.svg" alt="Next image" class="img-button-lightbox next-button-lightbox next-all">
+						</div>
+					</div>
+					
+					<div class="img-thumbs-lightbox">
+						<img id="img-0" src="./assets/image-product-1-thumbnail.jpg" alt="Product thumbnail" class="img-thumb-lightbox img-thumb-1-lightbox selected">
+						<img id="img-1" src="./assets/image-product-2-thumbnail.jpg" alt="Product thumbnail" class="img-thumb-lightbox img-thumb-2-lightbox">
+						<img id="img-2" src="./assets/image-product-3-thumbnail.jpg" alt="Product thumbnail" class="img-thumb-lightbox img-thumb-3-lightbox">
+						<img id="img-3" src="./assets/image-product-4-thumbnail.jpg" alt="Product thumbnail" class="img-thumb-lightbox img-thumb-4-lightbox">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<main class="content-container">
+			<div class="images-container">
+				<div class="main-img-wrapper">
+					<img src="./assets/image-product-1.jpg" alt="Product image" class="main-img main-img-click">
+
+					<div class="img-button-wrapper">
+						<img src="./assets/icon-previous.svg" alt="Previous image" class="img-button prev-button prev-all">
+					</div>
+
+					<div class="img-button-wrapper">
+						<img src="./assets/icon-next.svg" alt="Next image" class="img-button next-button next-all">
+					</div>
+				</div>
+				
+				<div class="img-thumbs">
+					<img id="img-0" src="./assets/image-product-1-thumbnail.jpg" alt="Product thumbnail" class="img-thumb img-thumb-1 selected">
+					<img id="img-1" src="./assets/image-product-2-thumbnail.jpg" alt="Product thumbnail" class="img-thumb img-thumb-2">
+					<img id="img-2" src="./assets/image-product-3-thumbnail.jpg" alt="Product thumbnail" class="img-thumb img-thumb-3">
+					<img id="img-3" src="./assets/image-product-4-thumbnail.jpg" alt="Product thumbnail" class="img-thumb img-thumb-4">
+				</div>
+			</div>
+
+			<div class="details-container">
+				<h2 class="company-name">SNEAKER COMPANY</h2>
+				<h1 class="product-name">Fall Limited Edition Sneakers</h1>
+				<p class="product-desc">
+					These low-profile sneakers are your perfect casual wear companion. Featuring a 
+					durable rubber outer sole, they’ll withstand everything the weather can offer.
+				</p>
+
+				<div class="price-discount-original-container">
+					<div class="price-discount-container">
+						<p class="product-price">$125.00</p>
+						<p class="product-discount">50%</p>
+					</div>
+
+					<p class="original-price">$250.00</p>
+				</div>
+
+				<div class="price-quantity-container">
+					<div class="quantity-selector">
+						<img class="quantity-change quantity-minus" alt="Remove one item" src="./assets/icon-minus.svg">
+						<p class="quantity-number">0</p>
+						<img class="quantity-change quantity-plus" alt="Remove one item" src="./assets/icon-plus.svg">
+					</div>
+
+					<button class="add-to-cart-button">
+						<img class="add-cart-icon" alt="Cart icon" src="./assets/icon-cart.svg">
+						Add to cart
+					</button>
+				</div>
+			</div>
+		</main>
+		<div class="padding-bottom"></div>
+		<script src="index.js"></script>
+	</body>
+</html>
